@@ -1,0 +1,17 @@
+micronaut:
+  application:
+    name: correspondence
+datasources:
+  default:
+    url: "jdbc:postgresql://ec2-54-217-236-206.eu-west-1.compute.amazonaws.com/dbcmbn7c4rcqcp"
+    username: oeulcndyzgxdjs
+    password: 393b9387671cb960fde9b3d9f6a1965fcc35b3bca6ef7a046d71331414d2d14f
+    driver-class-name: org.postgresql.Driver
+    schema-genenerate: NONE
+    dialect: POSTGRES
+jpa:
+  default:
+    properties:
+      hibernate:
+        bytecode:
+          provider: none
